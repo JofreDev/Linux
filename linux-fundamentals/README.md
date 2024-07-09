@@ -12,17 +12,19 @@
 
 # File and directory management 
 
-* > **mkdir** 
-* > **mv**
-* > **touch**
-* > **rm**
+* > **mkdir :** Create a new folder 
+* > **mv :** It is versatile and is used for both moving and renaming files and directories.
+* > **touch :** Create files 
+* > **rm :** Delete files and folders
 # File editing and viewing 
-
-  > * > **cat** 
-  > * > **more**
-  > * > **less** 
-  > * > **head**  
-  > * > **tail** 
+  > * > **File viewing :**
+  >   > - **cat :** 
+  >   > - **more :**
+  >   > - **less :** 
+  >   > - **head :**  
+  >   > - **tail :**
+  > * > **file creation and editing :**
+  >   > - **nano**
 
 # Redirections 
 
