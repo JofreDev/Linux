@@ -13,18 +13,18 @@
 # File and directory management 
 
 * > **mkdir :** Create a new folder 
-* > **mv :** It is versatile and is used for both moving and renaming files and directories.
+* > **mv :** It is versatile and is used for both moving and renaming files and directories
 * > **touch :** Create files 
 * > **rm :** Delete files and folders
 # File editing and viewing 
   > * > **File viewing :**
-  >   > - **cat :** 
-  >   > - **more :**
-  >   > - **less :** 
-  >   > - **head :**  
-  >   > - **tail :**
+  >   > - **cat :** Displays and concatenates files
+  >   > - **more :** Displays files in paginated form
+  >   > - **less :** Displays files in paginated form with advanced navigation
+  >   > - **head :** Displays the first lines of a file
+  >   > - **tail :** Displays the last lines of a file, with real-time tracking capability
   > * > **file creation and editing :**
-  >   > - **nano**
+  >   > - **nano :** It is a simple and fast text editor, ideal for quick editing of files from the terminal.
 
 # Redirections 
 
