@@ -27,27 +27,27 @@
 # Redirections 
 
 > Redirects in Linux are best understood when you know the concept of **standard input and output streams**.In Unix and Linux, each process has three predefined standard streams : 
-> * > **stdin :** Refers to the data stream that a program receives as input.By default, this is the keyboard.
-> * > **stdout :** This is the stream of data that a program sends as output.By default, this is the terminal screen.
-> * > **stderr :** This is the data stream for error messages.By default, it is also the terminal screen.
+> - > **stdin :** Refers to the data stream that a program receives as input.By default, this is the keyboard.
+> - > **stdout :** This is the stream of data that a program sends as output.By default, this is the terminal screen.
+> - > **stderr :** This is the data stream for error messages.By default, it is also the terminal screen.
 > ## Standard Output Redirection (stdout)
 
-> * > **comando > archivo.txt :** 
-        >   * **cat** archivo1.txt **>** archivo2.txt
-        >   * **cat** archivo1.txt archivo2.txt **>** archivo3.txt
-        >   * **cat** archivo1.txt archivo2.txt **>** archivo3.txt
-        >   * **echo** "texto texto texto" **>** archivo1.txt
-> * > **comando >> archivo.txt:** asd
-        >   * echo "texto texto texto" **>>** archivo1.txt
-        >   * echo archivo1.txt **>>** archivo2.txt
+> - > **comando > archivo.txt :** 
+        >   - **cat** archivo1.txt **>** archivo2.txt
+        >   - **cat** archivo1.txt archivo2.txt **>** archivo3.txt
+        >   - **cat** archivo1.txt archivo2.txt **>** archivo3.txt
+        >   - **echo** "texto texto texto" **>** archivo1.txt
+> - > **comando >> archivo.txt:** 
+        >   - echo "texto texto texto" **>>** archivo1.txt
+        >   - echo archivo1.txt **>>** archivo2.txt
 > ## Standard Input Redirection (stdin)
-> * > **comando < archivo.txt :** asd
-        >   * HOLA
+> - > **comando < archivo.txt :** 
+        >   - Hola Hola 
 > ## Standard Error Redirect (stderr)
-> * > **comando 2> errores.txt :** asd
-> * > **comando 2>> errores.txt :** asd
-> * > **comando &> salida_y_errores.txt :** asd
-> * > **comando &>> salida_y_errores.txt :** asd
+> - > **comando 2> errores.txt :** 
+> - > **comando 2>> errores.txt :** 
+> - > **comando &> salida_y_errores.txt :** 
+> - > **comando &>> salida_y_errores.txt :** 
 
 # Text search 
 
