@@ -1,11 +1,11 @@
 # Package management 
 
  > ### apt & apt-get : Current and classic command respectively
- > - **apt install :** Install a particular package 
- > - **apt remove :** Delete a particular package
- > - **apt list :** List of packages available for installation
- > - **apt autoremove :** Remove all packages that are not being used by others
- > - **apt update :** Synchronizes the database of locally available packages with the central storage. 
+ > - **`apt install` :** Install a particular package 
+ > - **`apt remove` :** Delete a particular package
+ > - **`apt list` :** List of packages available for installation
+ > - **`apt autoremove` :** Remove all packages that are not being used by others
+ > - **`apt update` :** Synchronizes the database of locally available packages with the central storage. 
  
 # File system 
 
@@ -32,14 +32,14 @@
 > - > **stderr :** This is the data stream for error messages.By default, it is also the terminal screen.
 > ## Standard Output Redirection (stdout)
 
-> - > **comando > archivo.txt :** 
-        >   - **cat** archivo1.txt **>** archivo2.txt
-        >   - **cat** archivo1.txt archivo2.txt **>** archivo3.txt
-        >   - **cat** archivo1.txt archivo2.txt **>** archivo3.txt
-        >   - **echo** "texto texto texto" **>** archivo1.txt
-> - > **comando >> archivo.txt:** 
-        >   - echo "texto texto texto" **>>** archivo1.txt
-        >   - echo archivo1.txt **>>** archivo2.txt
+> * > **comando > archivo.txt :**
+>   > - `cat archivo1.txt > archivo2.txt`
+>   > - `cat archivo1.txt archivo2.txt > archivo3.txt`
+>   > - `cat archivo1.txt archivo2.txt > archivo3.txt`
+>   > - `echo "texto texto texto" > archivo1.txt`
+> * > **comando >> archivo.txt :** 
+>   > - `echo "texto texto texto" >> archivo1.txt`
+>   > - `echo archivo1.txt >> archivo2.txt`
 > ## Standard Input Redirection (stdin)
 > - > **comando < archivo.txt :** 
         >   - Hola Hola 
