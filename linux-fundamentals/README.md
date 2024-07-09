@@ -56,6 +56,21 @@
 >   jeoliver@pop-os:~$
 >   ```
 
+> * **comando < archivo.txt > archivo_out.txt:**
+>   - `sort < file__alphabetically_disordered.txt > file__alphabetically_ordered. `
+>   ```sh
+>   jeoliver@pop-os:~$ cat frutas.txt 
+>   manzana
+>   pera
+>   naranja
+>   plátano
+>   jeoliver@pop-os:~$ sort < frutas.txt > frutas_organizadadas.txt
+>   jeoliver@pop-os:~$ cat frutas_organizadadas.txt 
+>   manzana
+>   naranja
+>   pera
+>   plátano
+>   ```
 
 
 > ## Standard Error Redirect (stderr)
