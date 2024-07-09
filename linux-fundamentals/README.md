@@ -19,12 +19,52 @@
 # File editing and viewing 
   > * > **File viewing :**
   >   > - **cat :** Displays and concatenates files
+  >   >   - `cat text1.txt`
+  >   >   - `cat -n archivo.txt`
   >   > - **more :** Displays files in paginated form
+  >   >   - `more archivo.txt`
   >   > - **less :** Displays files in paginated form with advanced navigation
+  >   >   - `less archivo.txt`
+  >   >   ```markdown
+  >   >   
+  >   >   Common Functions:
+  >   >   
+  >   >     Navigation:
+  >   >       Press Enter to advance one line.
+  >   >       Press Space to go forward one page.
+  >   >       Press b to go back one page.
+  >   >       Press q to exit.
+  >   >     Search:
+  >   >       Press / followed by a search term to search forward.
+  >   >       Press ? followed by a search term to search backward.
+  >   >   ```
   >   > - **head :** Displays the first lines of a file
+  >   >   - `head archivo.txt`
+  >   >   - `head -n 20 archivo.txt`
+  >   >   ```sh
+  >   >    jeoliver@pop-os:~$ head -n 2 frutas.txt 
+  >   >    manzana
+  >   >    pera
+  >   >    jeoliver@pop-os:~$ 
+  >   >   ```
   >   > - **tail :** Displays the last lines of a file, with real-time tracking capability
+  >   >    - `tail archivo.txt`
+  >   >    - `tail -n 20 archivo.txt`
+  >   >    - `tail -f archivo.log` 
+  >   >   ```sh
+  >   >   jeoliver@pop-os:~$ tail -n 2 frutas.txt 
+  >   >   naranja
+  >   >   plátano
+  >   >   jeoliver@pop-os:~$ tail -f frutas.txt 
+  >   >   manzana
+  >   >   pera
+  >   >   naranja
+  >   >   plátano
+  >   >   
+  >   >   ```
   > * > **file creation and editing :**
   >   > - **nano :** It is a simple and fast text editor, ideal for quick editing of files from the terminal.
+
 
 # Redirections 
 
