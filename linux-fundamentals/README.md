@@ -35,7 +35,6 @@
 > * > **comando > archivo.txt :**
 >   > - `cat archivo1.txt > archivo2.txt`
 >   > - `cat archivo1.txt archivo2.txt > archivo3.txt`
->   > - `cat archivo1.txt archivo2.txt > archivo3.txt`
 >   > - `echo "texto texto texto" > archivo1.txt`
 > * > **comando >> archivo.txt :** 
 >   > - `echo "texto texto texto" >> archivo1.txt`
@@ -44,10 +43,18 @@
 > - > **comando < archivo.txt :** 
         >   - Hola Hola 
 > ## Standard Error Redirect (stderr)
-> - > **comando 2> errores.txt :** 
-> - > **comando 2>> errores.txt :** 
-> - > **comando &> salida_y_errores.txt :** 
-> - > **comando &>> salida_y_errores.txt :** 
+> * > **comando 2> errores.txt :**
+>   > - `ls archivo_dose_not_exist.txt 2> errores.txt`
+> * > **comando 2>> errores.txt :**
+>   > - `ls -al archivo_dose_not_exist.txt 2>> errores.txt`
+> * > **comando &> salida_y_errores.txt :**
+>   > - `ls -la archivo_no.txt &> errs.txt` 
+> * > **comando &>> salida_y_errores.txt :**
+>   > - `ls -la archivo_no.txt &>> errs.txt` 
+> * > **comando > salida_y_errores.txt 2>&1 :**
+>   > - `ls -la archivo_no.txt > errs.txt 2>&1`
+> * > **comando >> salida_y_errores.txt 2>&1 :**
+> * > - `ls -la archivo_no.txt >> errs.txt 2>&1` 
 
 # Text search 
 
