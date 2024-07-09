@@ -39,9 +39,25 @@
 > * > **comando >> archivo.txt :** 
 >   > - `echo "texto texto texto" >> archivo1.txt`
 >   > - `echo archivo1.txt >> archivo2.txt`
-> ## Standard Input Redirection (stdin)
-> - > **comando < archivo.txt :** 
-        >   - Hola Hola 
+## Standard Input Redirection (stdin)
+> * **comando < archivo.txt :**
+>   - `sort < file__alphabetically_disordered.txt`
+>   ```sh
+>   jeoliver@pop-os:~$ cat frutas.txt
+>   manzana
+>   pera
+>   naranja
+>   plátano
+>   jeoliver@pop-os:~$ sort < frutas.txt
+>   manzana
+>   naranja
+>   pera
+>   plátano
+>   jeoliver@pop-os:~$
+>   ```
+
+
+
 > ## Standard Error Redirect (stderr)
 > * > **comando 2> errores.txt :**
 >   > - `ls archivo_dose_not_exist.txt 2> errores.txt`
