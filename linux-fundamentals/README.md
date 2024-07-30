@@ -2,17 +2,16 @@
 
 - [Package management](#package-management)
 - [File and directory management](#file-and-directory-management)
+- [File editing and viewing](#file-editing-and-viewing)
     - [File viewing](#file-viewing)
     - [File creation and editing](#file-creation-and-editing)
-- [File editing and viewing](#file-editing-and-viewing)
-    - [Sección 2.1](#sección-21)
-    - [Sección 2.2](#sección-22)
 - [Redirections](#redirections)
     - [Standard Output Redirection (stdout)](#standard-output-redirection-stdout)
     - [Standard Input Redirection (stdin)](#standard-input-redirection-stdin)
     - [Standard Error Redirect (stderr)](#standard-error-redirection-stderr)
 - [Text search](#text-search)
-- [Conclusión](#conclusión)
+    - [Global Regular Expression Print (grep)](#global-regular-expression-print-grep)
+- [Search for files and directories ](#search-for-files-and-directories)
 
 # Package management 
 
