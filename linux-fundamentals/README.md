@@ -2,12 +2,17 @@
 
 - [Package management](#package-management)
 - [File and directory management](#file-and-directory-management)
-    - [Sección 1.1](#sección-11)
-    - [Sección 1.2](#sección-12)
-3. [Segundo Capítulo](#segundo-capítulo)
+    - [File viewing](#file-viewing)
+    - [File creation and editing](#file-creation-and-editing)
+- [File editing and viewing](#file-editing-and-viewing)
     - [Sección 2.1](#sección-21)
     - [Sección 2.2](#sección-22)
-4. [Conclusión](#conclusión)
+- [Redirections](#redirections)
+    - [Standard Output Redirection (stdout)](#standard-output-redirection-stdout)
+    - [Standard Input Redirection (stdin)](#standard-input-redirection-stdin)
+    - [Standard Error Redirect (stderr)](#standard-error-redirection-stderr)
+- [Text search](#text-search)
+- [Conclusión](#conclusión)
 
 # Package management 
 
@@ -28,7 +33,7 @@
 * > **touch :** Create files 
 * > **rm :** Delete files and folders
 # File editing and viewing 
-  > * > **File viewing :**
+  > * > ### **File viewing** 
   >   > - **cat :** Displays and concatenates files
   >   >   - `cat text1.txt`
   >   >   - `cat -n archivo.txt`
@@ -73,7 +78,7 @@
   >   >   plátano
   >   >   
   >   >   ```
-  > * > **file creation and editing :**
+  > * > ### **File creation and editing**
   >   > - **nano :** It is a simple and fast text editor, ideal for quick editing of files from the terminal.
 
 
@@ -126,7 +131,7 @@
 >   ```
 
 
-> ## Standard Error Redirect (stderr)
+> ## Standard Error Redirection (stderr)
 > * > **comando 2> errores.txt :**
 >   > - `ls archivo_dose_not_exist.txt 2> errores.txt`
 > * > **comando 2>> errores.txt :**
