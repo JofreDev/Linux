@@ -1,4 +1,4 @@
-# Índice
+# Table of contents
 
 - [Package management](#package-management)
 - [File and directory management](#file-and-directory-management)
