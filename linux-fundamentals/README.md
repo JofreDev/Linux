@@ -130,5 +130,12 @@
 > * > - `ls -la archivo_no.txt >> errs.txt 2>&1` 
 
 # Text search 
+> ## Global Regular Expression Print (grep)
+> * > **grep < word >  archivo**
+> * > **grep -i < word >  archivo**
+> * > **grep -i < word >  archivo1 archivo2 archivo3 archivo4**
+> * > **grep -i < word >**  ***.txt**
+> * > **grep -i < word >  *.log**
+> * > **grep -i < word >  doc*.txt**
 
 # Search for files and directories 
