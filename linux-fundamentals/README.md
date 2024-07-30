@@ -1,3 +1,14 @@
+# Índice
+
+- [Package management](#package-management)
+- [File and directory management](#file-and-directory-management)
+    - [Sección 1.1](#sección-11)
+    - [Sección 1.2](#sección-12)
+3. [Segundo Capítulo](#segundo-capítulo)
+    - [Sección 2.1](#sección-21)
+    - [Sección 2.2](#sección-22)
+4. [Conclusión](#conclusión)
+
 # Package management 
 
  > ### apt & apt-get : Current and classic command respectively
