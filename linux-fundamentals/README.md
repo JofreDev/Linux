@@ -27,7 +27,7 @@
 
 # File and directory management 
 
-* > **mkdir :** Create a new folder
+* > **```mkdir``` :** Create a new folder
   > ```sh
   > ubuntu@99aee150ab40:~$ mkdir folder0        
   > ubuntu@99aee150ab40:~$ ls
@@ -37,7 +37,7 @@
   >  folder0  folder1  folder2
   > ubuntu@99aee150ab40:~$ 
   > ```
-* > **mv :** It is versatile and is used for both moving and renaming files and directories
+* > **```mv``` :** It is versatile and is used for both moving and renaming files and directories
   > *  Rename folder or file
   >    ```sh
   >     ubuntu@99aee150ab40:~$ mv folder0 folder-empty
@@ -54,7 +54,7 @@
   >      folder-empty
   >     ubuntu@99aee150ab40:~$ 
   >    ```
-* > **touch :** Create files
+* > **```touch``` :** Create files
   > ```sh
   > ubuntu@99aee150ab40:~$ touch text.txt
   > ubuntu@99aee150ab40:~$ touch logs.log
@@ -63,7 +63,7 @@
   > logs.log  notes.txt  othernotes.txt  text.txt
   > ubuntu@99aee150ab40:~$ 
   > ```
-* > **rm :** Delete files and folders
+* > **```rm``` :** Delete files and folders
   > *  Delete files
   >     ```sh
   >     ubuntu@99aee150ab40:~$ ls          
@@ -75,7 +75,7 @@
   >     ubuntu@99aee150ab40:~$ ls
   >     ubuntu@99aee150ab40:~$ 
   >     ```
-  > *  Delete folders with *rmdir* and *rm -r*
+  > *  Delete folders with *```rmdir```* and *```rm -r```*
   >     ```sh
   >     ubuntu@99aee150ab40:~$ mkdir example0/folder
   >     ubuntu@99aee150ab40:~$ ls
@@ -87,7 +87,7 @@
   >     ubuntu@99aee150ab40:~$ ls
   >      folder0  folder1  folder2  info  info0  info1  info2
   >     ```
-  > *  Delete folders with *rm -r* and basic pattern *
+  > *  Delete folders with *```rm -r```* and basic **pattern** * 
   >     ```
   >     ubuntu@99aee150ab40:~$ rm -r info*
   >     ubuntu@99aee150ab40:~$ ls
@@ -98,12 +98,12 @@
   >     ```
 # File editing and viewing 
   > * > ### **File viewing** 
-  >   > - **cat :** Displays and concatenates files
+  >   > - **```cat``` :** Displays and concatenates files
   >   >   - `cat text1.txt`
   >   >   - `cat -n archivo.txt`
-  >   > - **more :** Displays files in paginated form
+  >   > - **```more``` :** Displays files in paginated form
   >   >   - `more archivo.txt`
-  >   > - **less :** Displays files in paginated form with advanced navigation
+  >   > - **```less``` :** Displays files in paginated form with advanced navigation
   >   >   - `less archivo.txt`
   >   >   ```markdown
   >   >   
@@ -118,7 +118,7 @@
   >   >       Press / followed by a search term to search forward.
   >   >       Press ? followed by a search term to search backward.
   >   >   ```
-  >   > - **head :** Displays the first lines of a file
+  >   > - **```head``` :** Displays the first lines of a file
   >   >   - `head archivo.txt`
   >   >   - `head -n 20 archivo.txt`
   >   >   ```sh
@@ -127,7 +127,7 @@
   >   >    pera
   >   >    jeoliver@pop-os:~$ 
   >   >   ```
-  >   > - **tail :** Displays the last lines of a file, with real-time tracking capability
+  >   > - **```tail``` :** Displays the last lines of a file, with real-time tracking capability
   >   >    - `tail archivo.txt`
   >   >    - `tail -n 20 archivo.txt`
   >   >    - `tail -f archivo.log` 
@@ -143,7 +143,7 @@
   >   >   
   >   >   ```
   > * > ### **File creation and editing**
-  >   > - **nano :** It is a simple and fast text editor, ideal for quick editing of files from the terminal.
+  >   > - **```nano``` :** It is a simple and fast text editor, ideal for quick editing of files from the terminal.
 
 
 # Redirections 
