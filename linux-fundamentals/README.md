@@ -38,20 +38,22 @@
   > ubuntu@99aee150ab40:~$ 
   > ```
 * > **mv :** It is versatile and is used for both moving and renaming files and directories
-  > ```sh
-  > ubuntu@99aee150ab40:~$ mv folder0 folder-empty
-  > ubuntu@99aee150ab40:~$ ls       
-  >  folder-empty  folder1  folder2
-  > ubuntu@99aee150ab40:~$ 
-  > ```
-  >```sh
-  >ubuntu@99aee150ab40:~$ mv folder-empty folder2 
-  > ubuntu@99aee150ab40:~$ ls
-  >  folder1  folder2
-  > ubuntu@99aee150ab40:~$ ls folder2
-  >  folder-empty
-  > ubuntu@99aee150ab40:~$ 
-  >```
+  > *  Rename folder or file
+  >    ```sh
+  >     ubuntu@99aee150ab40:~$ mv folder0 folder-empty
+  >     ubuntu@99aee150ab40:~$ ls       
+  >      folder-empty  folder1  folder2
+  >     ubuntu@99aee150ab40:~$ 
+  >    ```
+  > *  Move folder or file 
+  >    ```sh
+  >    ubuntu@99aee150ab40:~$ mv folder-empty folder2 
+  >     ubuntu@99aee150ab40:~$ ls
+  >      folder1  folder2
+  >     ubuntu@99aee150ab40:~$ ls folder2
+  >      folder-empty
+  >     ubuntu@99aee150ab40:~$ 
+  >    ```
 * > **touch :** Create files
   > ```sh
   > ubuntu@99aee150ab40:~$ touch text.txt
