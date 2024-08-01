@@ -27,9 +27,40 @@
 
 # File and directory management 
 
-* > **mkdir :** Create a new folder 
+* > **mkdir :** Create a new folder
+  > ```sh
+  > ubuntu@99aee150ab40:~$ mkdir folder0        
+  > ubuntu@99aee150ab40:~$ ls
+  >  folder0
+  > ubuntu@99aee150ab40:~$ mkdir folder1 folder2 
+  > ubuntu@99aee150ab40:~$ ls
+  >  folder0  folder1  folder2
+  > ubuntu@99aee150ab40:~$ 
+  > ```
 * > **mv :** It is versatile and is used for both moving and renaming files and directories
-* > **touch :** Create files 
+  > ```sh
+  > ubuntu@99aee150ab40:~$ mv folder0 folder-empty
+  > ubuntu@99aee150ab40:~$ ls       
+  >  folder-empty  folder1  folder2
+  > ubuntu@99aee150ab40:~$ 
+  > ```
+  >```sh
+  >ubuntu@99aee150ab40:~$ mv folder-empty folder2 
+  > ubuntu@99aee150ab40:~$ ls
+  >  folder1  folder2
+  > ubuntu@99aee150ab40:~$ ls folder2
+  >  folder-empty
+  > ubuntu@99aee150ab40:~$ 
+  >```
+* > **touch :** Create files
+  > ```sh
+  > ubuntu@99aee150ab40:~$ touch text.txt
+  > ubuntu@99aee150ab40:~$ touch logs.log
+  > ubuntu@99aee150ab40:~$ touch notes.txt othernotes.txt
+  > ubuntu@99aee150ab40:~$ ls
+  >  logs.log  notes.txt  othernotes.txt  text.txt
+  > ubuntu@99aee150ab40:~$ 
+  > ```
 * > **rm :** Delete files and folders
 # File editing and viewing 
   > * > ### **File viewing** 
