@@ -251,9 +251,9 @@
 >    script2.py:sum_y = np.sum(y)
 >    script2.py:sum_xy = np.sum(x * y)
 >    script2.py:sum_x2 = np.sum(x ** 2)
->    ```  
-> *  **grep -i < word >**  ***.txt**
-> *  **grep -i < word >**  ***.log**
-> *  **grep -i < word >  doc** ***.txt**
+>    ```
+> *  **`grep` $-i$**  ***$.< extension >$**
+> *  **`grep` $-i$ $< word >$**  ***$.< extension >$**
+
 
 # Search for files and directories 
