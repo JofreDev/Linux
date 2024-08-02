@@ -55,14 +55,14 @@
   >    ubuntu@99aee150ab40:~$ 
   >    ```
 * > **```touch``` :** Create files
-  >     ```sh
-  >     ubuntu@99aee150ab40:~$ touch text.txt
-  >     ubuntu@99aee150ab40:~$ touch logs.log
-  >     ubuntu@99aee150ab40:~$ touch notes.txt othernotes.txt
-  >     ubuntu@99aee150ab40:~$ ls
-  >     logs.log  notes.txt  othernotes.txt  text.txt
-  >     ubuntu@99aee150ab40:~$ 
-  >     ```
+  > ```sh
+  > ubuntu@99aee150ab40:~$ touch text.txt
+  > ubuntu@99aee150ab40:~$ touch logs.log
+  > ubuntu@99aee150ab40:~$ touch notes.txt othernotes.txt
+  > ubuntu@99aee150ab40:~$ ls
+  > logs.log  notes.txt  othernotes.txt  text.txt
+  > ubuntu@99aee150ab40:~$ 
+  > ```
 * > **```rm``` :** Delete files and folders
   > *  Delete files
   >     ```sh
