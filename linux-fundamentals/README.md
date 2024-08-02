@@ -145,9 +145,8 @@
   > * > ### **File creation and editing**
   >   > - **```nano``` :** It is a simple and fast text editor, ideal for quick editing of files from the terminal.
 
-
-# Redirections 
-
+> [!IMPORTANT] 
+> # Redirections 
 > Redirects in Linux are best understood when you know the concept of **standard input and output streams**.In Unix and Linux, each process has three predefined standard streams : 
 > -  **stdin :** Refers to the data stream that a program receives as input.By default, this is the keyboard.
 > -  **stdout :** This is the stream of data that a program sends as output.By default, this is the terminal screen.
