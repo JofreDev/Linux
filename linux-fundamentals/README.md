@@ -149,19 +149,11 @@
 # Redirections 
 
 > Redirects in Linux are best understood when you know the concept of **standard input and output streams**.In Unix and Linux, each process has three predefined standard streams : 
-> - > **stdin :** Refers to the data stream that a program receives as input.By default, this is the keyboard.
-> - > **stdout :** This is the stream of data that a program sends as output.By default, this is the terminal screen.
-> - > **stderr :** This is the data stream for error messages.By default, it is also the terminal screen.
-> ## Standard Output Redirection (stdout)
+> -  **stdin :** Refers to the data stream that a program receives as input.By default, this is the keyboard.
+> -  **stdout :** This is the stream of data that a program sends as output.By default, this is the terminal screen.
+> -  **stderr :** This is the data stream for error messages.By default, it is also the terminal screen.
 
-> * > **comando > archivo.txt :**
->   > - `cat archivo1.txt > archivo2.txt`
->   > - `cat archivo1.txt archivo2.txt > archivo3.txt`
->   > - `echo "texto texto texto" > archivo1.txt`
-> * > **comando >> archivo.txt :** 
->   > - `echo "texto texto texto" >> archivo1.txt`
->   > - `echo archivo1.txt >> archivo2.txt`
-## Standard Input Redirection (stdin)
+> ## Standard Input Redirection (stdin)
 > * **comando < archivo.txt :**
 >   - `sort < file__alphabetically_disordered.txt`
 >   ```sh
@@ -195,6 +187,16 @@
 >   ```
 
 
+> ## Standard Output Redirection (stdout)
+
+> * > **comando > archivo.txt :**
+>   > - `cat archivo1.txt > archivo2.txt`
+>   > - `cat archivo1.txt archivo2.txt > archivo3.txt`
+>   > - `echo "texto texto texto" > archivo1.txt`
+> * > **comando >> archivo.txt :** 
+>   > - `echo "texto texto texto" >> archivo1.txt`
+>   > - `echo archivo1.txt >> archivo2.txt`
+
 > ## Standard Error Redirection (stderr)
 > * > **comando 2> errores.txt :**
 >   > - `ls archivo_dose_not_exist.txt 2> errores.txt`
@@ -211,31 +213,45 @@
 
 # Text search 
 > ## Global Regular Expression Print (grep)
-> *  **grep < word >  file** : keyword search in a file. By default the search is case sensitive.
-  >     ```sh
-  >     ubuntu@99aee150ab40:~$ ls
-  >     script.py  script2.py
-  >     ubuntu@99aee150ab40:~$ grep print script.py 
-  >     print("Matriz A:")
-  >     print(A)
-  >     print("\nMatriz B:")
-  >     print(B)
-  >     print("\nResultado de A * B:")
-  >     print(C)
-  >     ```
-> *  **grep -i < word >  file** : keyword search in a file. By setting *'-i'* the search is not case-sensitive .
-  >    ```sh
-  >    ubuntu@99aee150ab40:~$ grep PriNt script.py 
-  >    ubuntu@99aee150ab40:~$ grep -i PriNt script.py 
-  >    print("Matriz A:")
-  >    print(A)
-  >    print("\nMatriz B:")
-  >    print(B)
-  >    print("\nResultado de A * B:")
-  >    print(C)
-  >    ubuntu@99aee150ab40:~$ 
-  >    ``` 
-> *  **grep -i < word >  file1 file2 file3 file4**
+> *  **`grep` $< word >$  $file$** : keyword search in a file. By default the search is case sensitive.
+>     ```sh
+>     ubuntu@99aee150ab40:~$ ls
+>     script.py  script2.py
+>     ubuntu@99aee150ab40:~$ grep print script.py 
+>     print("Matriz A:")
+>     print(A)
+>     print("\nMatriz B:")
+>     print(B)
+>     print("\nResultado de A * B:")
+>     print(C)
+>     ```
+> *  **`grep` $-i$ $< word >$  $file$** : keyword search in a file. By setting *'-i'* the search is not case-sensitive.
+>    ```sh
+>    ubuntu@99aee150ab40:~$ grep PriNt script.py 
+>    ubuntu@99aee150ab40:~$ grep -i PriNt script.py 
+>    print("Matriz A:")
+>    print(A)
+>    print("\nMatriz B:")
+>    print(B)
+>    print("\nResultado de A * B:")
+>    print(C)
+>    ubuntu@99aee150ab40:~$ 
+>    ``` 
+> *  **`grep` $-i$ $< word >$  $file1$ $file2$ $file3$ $file_n$** : keyword search in different files. By setting *'-i'* the search is not case-sensitive.
+>    ```sh
+>    ubuntu@99aee150ab40:~$ grep -i np script.py script2.py 
+>    script.py:import numpy as np
+>    script.py:    return np.random.randint(0, 11, size=(rows, cols))
+>    script.py:    return np.dot(A, B)
+>    script2.py:import numpy as np
+>    script2.py:np.random.seed(0)  # Para reproducibilidad
+>    script2.py:x = np.linspace(0, 10, 100)
+>    script2.py:noise = np.random.normal(0, 1, x.size)
+>    script2.py:sum_x = np.sum(x)
+>    script2.py:sum_y = np.sum(y)
+>    script2.py:sum_xy = np.sum(x * y)
+>    script2.py:sum_x2 = np.sum(x ** 2)
+>    ```  
 > *  **grep -i < word >**  ***.txt**
 > *  **grep -i < word >**  ***.log**
 > *  **grep -i < word >  doc** ***.txt**
