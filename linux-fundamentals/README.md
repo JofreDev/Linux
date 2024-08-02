@@ -223,7 +223,18 @@
   >     print("\nResultado de A * B:")
   >     print(C)
   >     ```
-> *  **grep -i < word >  file**
+> *  **grep -i < word >  file** : keyword search in a file. By setting *'-i'* the search is not case-sensitive .
+  >    ```sh
+  >    ubuntu@99aee150ab40:~$ grep PriNt script.py 
+  >    ubuntu@99aee150ab40:~$ grep -i PriNt script.py 
+  >    print("Matriz A:")
+  >    print(A)
+  >    print("\nMatriz B:")
+  >    print(B)
+  >    print("\nResultado de A * B:")
+  >    print(C)
+  >    ubuntu@99aee150ab40:~$ 
+  >    ``` 
 > *  **grep -i < word >  file1 file2 file3 file4**
 > *  **grep -i < word >**  ***.txt**
 > *  **grep -i < word >**  ***.log**
