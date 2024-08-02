@@ -42,35 +42,35 @@
   >    ```sh
   >     ubuntu@99aee150ab40:~$ mv folder0 folder-empty
   >     ubuntu@99aee150ab40:~$ ls       
-  >      folder-empty  folder1  folder2
+  >    folder-empty  folder1  folder2
   >     ubuntu@99aee150ab40:~$ 
   >    ```
   > *  Move folder or file 
   >    ```sh
   >    ubuntu@99aee150ab40:~$ mv folder-empty folder2 
-  >     ubuntu@99aee150ab40:~$ ls
-  >      folder1  folder2
-  >     ubuntu@99aee150ab40:~$ ls folder2
-  >      folder-empty
-  >     ubuntu@99aee150ab40:~$ 
+  >    ubuntu@99aee150ab40:~$ ls
+  >    folder1  folder2
+  >    ubuntu@99aee150ab40:~$ ls folder2
+  >    folder-empty
+  >    ubuntu@99aee150ab40:~$ 
   >    ```
 * > **```touch``` :** Create files
-  > ```sh
-  > ubuntu@99aee150ab40:~$ touch text.txt
-  > ubuntu@99aee150ab40:~$ touch logs.log
-  > ubuntu@99aee150ab40:~$ touch notes.txt othernotes.txt
-  > ubuntu@99aee150ab40:~$ ls
-  > logs.log  notes.txt  othernotes.txt  text.txt
-  > ubuntu@99aee150ab40:~$ 
-  > ```
+  >     ```sh
+  >     ubuntu@99aee150ab40:~$ touch text.txt
+  >     ubuntu@99aee150ab40:~$ touch logs.log
+  >     ubuntu@99aee150ab40:~$ touch notes.txt othernotes.txt
+  >     ubuntu@99aee150ab40:~$ ls
+  >     logs.log  notes.txt  othernotes.txt  text.txt
+  >     ubuntu@99aee150ab40:~$ 
+  >     ```
 * > **```rm``` :** Delete files and folders
   > *  Delete files
   >     ```sh
   >     ubuntu@99aee150ab40:~$ ls          
-  >      logs.log  notes.txt  othernotes.txt  text.txt
+  >     logs.log  notes.txt  othernotes.txt  text.txt
   >     ubuntu@99aee150ab40:~$ rm logs.log 
   >     ubuntu@99aee150ab40:~$ ls
-  >      notes.txt  othernotes.txt  text.txt
+  >     notes.txt  othernotes.txt  text.txt
   >     ubuntu@99aee150ab40:~$ rm *.txt
   >     ubuntu@99aee150ab40:~$ ls
   >     ubuntu@99aee150ab40:~$ 
@@ -79,22 +79,22 @@
   >     ```sh
   >     ubuntu@99aee150ab40:~$ mkdir example0/folder
   >     ubuntu@99aee150ab40:~$ ls
-  >      example  example0  folder0  folder1  folder2  info  info0  info1  info2
+  >     example  example0  folder0  folder1  folder2  info  info0  info1  info2
   >     ubuntu@99aee150ab40:~$ rmdir example
   >     ubuntu@99aee150ab40:~$ ls
-  >      example0  folder0  folder1  folder2  info  info0  info1  info2
+  >     example0  folder0  folder1  folder2  info  info0  info1  info2
   >     ubuntu@99aee150ab40:~$ rm -r example0/
   >     ubuntu@99aee150ab40:~$ ls
-  >      folder0  folder1  folder2  info  info0  info1  info2
+  >     folder0  folder1  folder2  info  info0  info1  info2
   >     ```
   > *  Delete folders with *```rm -r```* and basic **pattern** * 
-  >     ```
+  >     ```sh
   >     ubuntu@99aee150ab40:~$ rm -r info*
   >     ubuntu@99aee150ab40:~$ ls
-  >      folder0  folder1  folder2
+  >     folder0  folder1  folder2
   >     ubuntu@99aee150ab40:~$ rm -r fol*2
   >     ubuntu@99aee150ab40:~$ ls
-  >      folder0  folder1
+  >     folder0  folder1
   >     ```
 # File editing and viewing 
   > * > ### **File viewing** 
