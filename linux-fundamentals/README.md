@@ -211,11 +211,22 @@
 
 # Text search 
 > ## Global Regular Expression Print (grep)
-> * > **grep < word >  archivo**
-> * > **grep -i < word >  archivo**
-> * > **grep -i < word >  archivo1 archivo2 archivo3 archivo4**
-> * > **grep -i < word >**  ***.txt**
-> * > **grep -i < word >**  ***.log**
-> * > **grep -i < word >  doc** ***.txt**
+> *  **grep < word >  file** : keyword search in a file. By default the search is case sensitive.
+  >     ```sh
+  >     ubuntu@99aee150ab40:~$ ls
+  >     script.py  script2.py
+  >     ubuntu@99aee150ab40:~$ grep print script.py 
+  >     print("Matriz A:")
+  >     print(A)
+  >     print("\nMatriz B:")
+  >     print(B)
+  >     print("\nResultado de A * B:")
+  >     print(C)
+  >     ```
+> *  **grep -i < word >  file**
+> *  **grep -i < word >  file1 file2 file3 file4**
+> *  **grep -i < word >**  ***.txt**
+> *  **grep -i < word >**  ***.log**
+> *  **grep -i < word >  doc** ***.txt**
 
 # Search for files and directories 
