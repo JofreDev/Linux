@@ -99,12 +99,12 @@
 # File editing and viewing 
   > * > ### **File viewing** 
   >   > - **```cat``` :** Displays and concatenates files
-  >   >   - `cat text1.txt`
-  >   >   - `cat -n archivo.txt`
+  >   >   - `cat` $file.< extension >$
+  >   >   - `cat` $-n$ $< number >$ $file.< extension >$
   >   > - **```more``` :** Displays files in paginated form
-  >   >   - `more archivo.txt`
+  >   >   - `more` $file.< extension >$
   >   > - **```less``` :** Displays files in paginated form with advanced navigation
-  >   >   - `less archivo.txt`
+  >   >   - `less` $file.< extension >$
   >   >   ```markdown
   >   >   
   >   >   Common Functions:
@@ -119,8 +119,8 @@
   >   >       Press ? followed by a search term to search backward.
   >   >   ```
   >   > - **```head``` :** Displays the first lines of a file
-  >   >   - `head archivo.txt`
-  >   >   - `head -n 20 archivo.txt`
+  >   >   - `head` $file.< extension >$
+  >   >   - `head` $-n$ $< number >$ $file.< extension >$
   >   >   ```sh
   >   >    jeoliver@pop-os:~$ head -n 2 frutas.txt 
   >   >    manzana
@@ -128,9 +128,9 @@
   >   >    jeoliver@pop-os:~$ 
   >   >   ```
   >   > - **```tail``` :** Displays the last lines of a file, with real-time tracking capability
-  >   >    - `tail archivo.txt`
-  >   >    - `tail -n 20 archivo.txt`
-  >   >    - `tail -f archivo.log` 
+  >   >    - `tail` $file.< extension >$
+  >   >    - `tail`  $-n$ $< number >$ $file.< extension >$
+  >   >    - `tail` $-f$ $file.< extension >$ 
   >   >   ```sh
   >   >   jeoliver@pop-os:~$ tail -n 2 frutas.txt 
   >   >   naranja
