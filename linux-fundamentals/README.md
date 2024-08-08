@@ -262,7 +262,6 @@
 > [!TIP]        
 > * $< action >$ : $(Optional field)$ What find will do with the files it finds. If omitted, find will simply list the files.
 
-
 > * **Search files by name :**
 >     * ` find` $< /path/to/search >$ `-name` $< name$ $of$ $file > $
 >         ```sh
@@ -277,7 +276,15 @@
 >         /home/ubuntu/script.py
 >         ubuntu@99aee150ab40:/$
 >         ```
+> * **Search files by size :**
+>     * ` find` $< /path/to/search >$ `-type` $f$
+>     * ` find` $< /path/to/search >$ `-type` $d$
+> * **Search files by type :**
+>     * ` find` $< /path/to/search >$ `-size` $+< number >$ $< storage$ $unit >$
+>     * ` find` $< /path/to/search >$ `-size` $-< number >$ $< storage$ $unit >$
+> * **Search files by modification date :**
+>     * ` find` $< /path/to/search >$ `-mtime` $-< number >$ 
+>     * ` find` $< /path/to/search >$ `-mtime` $+< number >$
 
-
-
-
+> [!TIP]  
+> * **Execute an action on the found files: :**
