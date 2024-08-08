@@ -256,3 +256,8 @@
 
 
 # Search for files and directories 
+> * **find** : Used to search for files and directories within a directory tree.
+> * `find` $< path >$ $< search$ $expression >$ $< action >$
+>     * $< action >$ : $(Optional field)$ What find will do with the files it finds. If omitted, find will simply list the files. 
+>   ```
+>   
