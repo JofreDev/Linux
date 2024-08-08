@@ -255,11 +255,14 @@
 > *  **`grep` $-i$ $< word >$**  ***$.< extension >$**
 
 
-# Search for files and directories 
+> # Search for files and directories 
 > * **find** : Used to search for files and directories within a directory tree.
->     * `find` $< path >$ $< search$ $expression >$ $< action >$
->     * 
-> [!IMPORTANT]
->         * $< action >$ : $(Optional field)$ What find will do with the files it finds. If omitted, find will simply list the files. 
-> * ` find` $< /ruta/a/buscar >$ `-name` $< name_of_file > $
->   
+> * `find` $< path >$ $< search$ $expression >$ $< action >$
+
+> [!TIP]        
+> * $< action >$ : $(Optional field)$ What find will do with the files it finds. If omitted, find will simply list the files.
+
+> ` find` $< /path/to/search >$ `-name` $< name$ $of$ $file > $
+
+
+
