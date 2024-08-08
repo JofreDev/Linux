@@ -262,7 +262,22 @@
 > [!TIP]        
 > * $< action >$ : $(Optional field)$ What find will do with the files it finds. If omitted, find will simply list the files.
 
-> ` find` $< /path/to/search >$ `-name` $< name$ $of$ $file > $
+
+> * **Search files by name :**
+>     * ` find` $< /path/to/search >$ `-name` $< name$ $of$ $file > $
+>         ```sh
+>         ubuntu@99aee150ab40:/$ pwd                        
+>         /
+>         ubuntu@99aee150ab40:/$ find /home/ -name script.py
+>         /home/ubuntu/script.py
+>         ```
+>     * ` find` $< /path/to/search >$ `-iname` $< name$ $of$ $file > $
+>         ```sh
+>         ubuntu@99aee150ab40:/$ find /home/ -iname ScriPt.Py
+>         /home/ubuntu/script.py
+>         ubuntu@99aee150ab40:/$
+>         ```
+
 
 
 
