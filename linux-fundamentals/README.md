@@ -276,10 +276,10 @@
 >         /home/ubuntu/script.py
 >         ubuntu@99aee150ab40:/$
 >         ```
-> * **Search files by size :**
+> * **Search files by type :**
 >     * ` find` $< /path/to/search >$ `-type` $f$
 >     * ` find` $< /path/to/search >$ `-type` $d$
-> * **Search files by type :**
+> * **Search files by syze :**
 >     * ` find` $< /path/to/search >$ `-size` $+< number >$ $< storage$ $unit >$
 >     * ` find` $< /path/to/search >$ `-size` $-< number >$ $< storage$ $unit >$
 > * **Search files by modification date :**
