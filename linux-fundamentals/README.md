@@ -153,8 +153,8 @@
 > -  **stderr :** This is the data stream for error messages.By default, it is also the terminal screen.
 
 > ## Standard Input Redirection (stdin)
-> * **comando < archivo.txt :**
->   - `sort < file__alphabetically_disordered.txt`
+> * **$command$ $< file.txt$ :**
+>   - `sort` $< file-alphabetically-disordered.txt >$
 >   ```sh
 >   jeoliver@pop-os:~$ cat frutas.txt
 >   manzana
@@ -169,8 +169,8 @@
 >   jeoliver@pop-os:~$
 >   ```
 
-> * **comando < archivo.txt > archivo_out.txt:**
->   - `sort < file__alphabetically_disordered.txt > file__alphabetically_ordered. `
+> * **$command$ $< file.txt >$ $file-out.txt$:**
+>   - `sort` $< file-alphabetically-disordered.txt >$ $file-alphabetically-ordered$ 
 >   ```sh
 >   jeoliver@pop-os:~$ cat frutas.txt 
 >   manzana
@@ -188,26 +188,26 @@
 
 > ## Standard Output Redirection (stdout)
 
-> * > **comando > archivo.txt :**
+> * > **$command$ > file.txt :**
 >   > - `cat archivo1.txt > archivo2.txt`
 >   > - `cat archivo1.txt archivo2.txt > archivo3.txt`
 >   > - `echo "texto texto texto" > archivo1.txt`
-> * > **comando >> archivo.txt :** 
+> * > **command >> file.txt :** 
 >   > - `echo "texto texto texto" >> archivo1.txt`
 >   > - `echo archivo1.txt >> archivo2.txt`
 
 > ## Standard Error Redirection (stderr)
-> * > **comando 2> errores.txt :**
+> * > **command 2> errors.txt :**
 >   > - `ls archivo_dose_not_exist.txt 2> errores.txt`
-> * > **comando 2>> errores.txt :**
+> * > **command 2>> errors.txt :**
 >   > - `ls -al archivo_dose_not_exist.txt 2>> errores.txt`
-> * > **comando &> salida_y_errores.txt :**
+> * > **command &> salida_y_errores.txt :**
 >   > - `ls -la archivo_no.txt &> errs.txt` 
-> * > **comando &>> salida_y_errores.txt :**
+> * > **command &>> salida_y_errores.txt :**
 >   > - `ls -la archivo_no.txt &>> errs.txt` 
-> * > **comando > salida_y_errores.txt 2>&1 :**
+> * > **command > salida_y_errores.txt 2>&1 :**
 >   > - `ls -la archivo_no.txt > errs.txt 2>&1`
-> * > **comando >> salida_y_errores.txt 2>&1 :**
+> * > **command >> salida_y_errores.txt 2>&1 :**
 > * > - `ls -la archivo_no.txt >> errs.txt 2>&1` 
 
 # Text search 
